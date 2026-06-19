@@ -9,6 +9,7 @@ file_name = "input.txt"
 
 students = []
 
+# Reads each student's name and scores from the file
 with open(file_name, "r") as file:
     for line in file:
         parts = line.strip().split()
@@ -25,7 +26,9 @@ with open(file_name, "r") as file:
         
         students.append((name, average))
 
+# Sorts students by average score from highest to lowest
 students.sort(key=lambda student: student[1], reverse=True)
 
+# Prints each student's name and score
 for student in students:
     print(student[0], format(student[1], ".2f"))
