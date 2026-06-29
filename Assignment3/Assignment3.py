@@ -1,3 +1,10 @@
+# Program Name: Assignment3.py
+# Course: IT3883/Section W01
+# Student Name: Reece Woodard
+# Assignment Number: Lab3
+# Due Date: 6/26/2026
+# Purpose: GUI application that converts Miles per Gallon to Kilometers per Meter
+
 import tkinter as tk
 
 # Conversion function
