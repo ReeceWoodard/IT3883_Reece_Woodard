@@ -1,3 +1,10 @@
+# Program Name: Assignment5.py
+# Course: IT3883/Section W01
+# Student Name: Reece Woodard
+# Assignment Number: Lab5
+# Due Date: 7/10/2026
+# Purpose: Python program that creates and interacts with a database.
+
 import sqlite3
 
 connection = sqlite3.connect("temperatures.db")
